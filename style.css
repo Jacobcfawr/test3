@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400;500;600&family=Source+Sans+Pro:wght@600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-image: url(cfaRedChairs.jpg);
+  background-size: cover;
+  color: white;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  font-size: 1rem;
+  
+}
+
+header ul {
+  list-style: none;
+}
+
+header ul li {
+  display: inline-block;
+
+}
+
+header ul li a {
+  display: block;
+  color: white;
+  text-decoration: underline;
+  padding-left: 20px;
+  font-weight: 550;
+
+  
+
+}
+
+
+.hero {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    text-align: center;
+  }
+
+.hero h2 
+  {
+ font-size: 2.5rem;
+  font-weight: 800;
+  }
+
+.hero h3 
+  {
+  font-size: 2.5rem;
+  font-weight: 700;
+  }
+
+.hero p 
+  {
+  font-size: 2.3rem;
+  font-weight: 100;
+  }
